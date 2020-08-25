@@ -1,0 +1,231 @@
+
+/*##############################  nav bar ############################*/
+nav{
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-bottom: 6%;
+    border-top: 6%;
+    border-top-color:#b3c2bf;
+    border-bottom-color:#b3c2bf;
+    background-color: #3b3a36;
+    margin: 0;
+    width: 100%;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.tofloat li{
+    float: left;
+    list-style: none;
+}
+ul.tofloat li.toright{
+    float: right;
+}
+ul.tofloat li a{
+    display: block;
+    text-align: center;
+    min-height: 16px;
+    padding: 15px;
+    text-transform: uppercase;
+    color: #e9ece5;
+    text-decoration: none;
+    
+}
+
+ul.tofloat li a:hover{
+    color: black;
+    background-color: #b3c2bf;
+}
+/*###################  coustomizations  ####################*/
+nav{
+    display: block;
+}
+body{
+    line-height: 1;
+    margin: 0;
+}
+label{
+    font-size: 40px;
+    font-weight: 600;
+}
+p{
+    font-size: 28px;
+    line-height: 1.2;
+}
+.container{
+    width: 100%%;
+    margin: auto;
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.col{
+    width: 50%;
+}
+.col2{
+    width: 33.33%;
+}
+.col6{
+    width: 65%;
+}
+.col4{
+    width: 35%;
+}
+.col25{
+    width: 25%;
+}
+.col60{
+    width: 60%;
+}
+.col15{
+    width: 15%;
+}
+*{
+    box-sizing: border-box;
+}
+.co{
+    background: #c0dfd9;
+}
+.col6 h1{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h1 header{
+    margin-bottom: none;
+}
+.pa{
+    background: #b3c2bf;
+}
+.box{
+    margin: 12px 24px 12px 24px;
+    border-radius: 7px;
+    padding: 0px 24px 0px 24px;
+    background-color: #e9ece5;
+    box-shadow: 0  0 0 1px rgba(0,0,0,.15),0 2px 3px 0 rgba(0,0,0,1)
+}
+.box .container{
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.head .container{
+    padding: 5px 10px;
+}
+.ion{
+    text-align: right;
+}
+.iton img{
+    height: 75px;
+}
+.ion img{
+    height: 75px;
+}
+.icon img{
+    
+    height: 150px;
+    width: 150px;
+}
+
+.box .row{
+    align-items: center;
+}
+button a{
+    text-decoration: none;
+    color: #e9ece5
+}
+.butt button{
+    color: white;
+    padding: 7px 20px;
+    width: auto;
+}
+button{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    background-color: #3b3a36;
+    padding: 15px 60px;
+    display: block;
+    margin-top: 3%;
+    border-radius: 7px;
+    width: 400px;
+    
+}
+
+.box ul{
+    padding-left: 10px;
+    font-size: 24px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+h1.large{
+    color: #3b3a36;
+    font-size: 56px;
+    margin: 0;
+    line-height: 60px;
+}
+h2.large{
+    color: #3b3a36;
+    font-size: 42px;
+    margin: 0;
+    line-height: 60px;
+}
+input[type="text"]{
+    font-size: 20px;
+    width: 400px;
+    min-width: 100px;
+    padding: 3px;
+}
+.form-control{
+    font-size: 20px;
+    width: 400px;
+    min-width: 100px;
+    padding: 3px;
+}
+form h2{
+    color: #3b3a36;
+    margin: 12px 0px 12px 0px;
+}
+.leftside{
+    margin-left: 15%;
+} 
+.rightside{
+    margin-right: 20%;
+}
+h1.section2header{
+    text-align: center;
+    font-size: 56px;
+}
+footer.footsy{
+    
+    background-color: #666;
+    padding-left: 10%;
+}
+footer.footsy h1{
+    color: white;
+    font-size: 25px;
+}
+footer.footsy ul{
+    list-style: none;
+    
+    text-align: left;
+    padding-left: 0;
+}
+footer.footsy ul li{
+    color: white;
+    font-size: 15px;
+    line-height: 1.5;
+}
